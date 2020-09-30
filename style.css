@@ -5,3 +5,14 @@
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
 }
+
+.estilo_body{
+    background-image: url('img/back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.posicion_body{
+    position: relative;  
+}
