@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #B3B3B3;
+}
+
+#contenedor{
+	width: 960px;
+	margin: auto;
+	margin-top: 28px;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+header{
+height: 180px;
+width: 960;
+background: rgb(0, 88, 131);
+color:#fff;
+}
+
+nav{
+	width: 180;
+	height: 50px;
+	background: rgb(0, 88, 131);
+	display: flex;
+	justify-content:center;
+}
+
+nav ul{
+	display: flex;
+	list-style: none;
+	font-family: tahoma;
+	font-size: 18px;
+	}
+	nav ul li a{
+		display: block;
+		padding: 10px 40px;
+		color: #ffff;
+		text-decoration: none;
+			}
+
+nav ul ul{
+	position: absolute;
+	display: block;
+	background: rgb(0, 88, 131);
+	transform: translateX(60%);
+	opacity: 0;
+	transition: all .6s;
+	}
+
+nav ul li:hover ul{
+	opacity: 1;
+	transform: translateX(0%);
+
+}
+
+#slider{
+	margin: auto;
+	border: 5px solid rgb(240, 180, 41);
+	margin-top: 5px;
+}
+
+#contenido{
+	float: left;
+	width: 700px;
+	background: #ffffff;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.articulos{
+	margin: 10px;
+}
+
+.articulos h2{
+	font-size: 30px;
+	padding: 10px;
+	color: rgb(0, 88, 131);
+	border-bottom: 3px solid rgb(0, 88, 131);
+	font-family: arial;
+}
+
+.articulos h3{
+	font-size: 20px;
+	padding: 10px;
+	color: rgb(0, 88, 131);
+	border-bottom: 3px solid rgb(0, 88, 131);
+	font-family: arial;
+}
+
+.articulos img{
+	float: left;
+	margin: 10px;
+}
+
+.articulos p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: arial;
+	text-align: justify;
+}
+
+aside{
+	float: right;
+	width: 250px;
+	background: #ffffff;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+aside h3{
+	font-size: 20px;
+	color: #ffffff;
+	background: rgb(0, 88, 131);
+	border-radius: 4px;
+	text-align: center;
+	padding: 10px;
+	font-family: arial;
+}
+
+aside p{
+	padding: 10px;
+	font-size: 14px;
+	font-family: arial;
+	text-align: justify;
+}
+
+footer{
+	height: 40px;
+	background: rgb(0, 88, 131);
+	color: #ffffff;
+	clear: both;
+}
+
+footer p{
+	font-size: 15px;
+	font-family: arial;
+	text-align: center;
+	line-height: 35px;
+}
+
+#titulo{
+	background: #fff;
+	font-family: tahoma;
+	font-weight: normal;
+  color: black;
+	padding: 2px;
+}
+
+#herramientas{
+	float: left;
+	width: 700px;
+	background: #ffffff;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+article p{
+	font-size: 14px;
+	font-family: tahoma;
+	text-align: justify;
+	line-height: 15px;
+}
